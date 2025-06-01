@@ -1,0 +1,22 @@
+https://world.openfoodfacts.org/
+https://pl.openfoodfacts.org/
+
+Search for Products (e.g., Milk in Poland)
+GET https://pl.openfoodfacts.org/cgi/search.pl?search_terms=milk&search_simple=1&action=process&json=1
+
+Get Product by Barcode
+GET https://world.openfoodfacts.org/api/v0/product/5901234123457.json
+
+When using search.pl, here are some useful query parameters:
+
+search_terms=milk
+search_simple=1
+action=process
+json=1 (to get JSON response)
+fields=product_name,nutrition_grades_tags,countries_tags
+page_size=20 (limit number of results)
+
+https://world.openfoodfacts.org/cgi/search.pl?search_terms=bread&json=1&fields=product_name,countries_tags&country=pl
+
+Visit the official API docs here:
+📎 https://en.wiki.openfoodfacts.org/API

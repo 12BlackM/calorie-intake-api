@@ -1,0 +1,7 @@
+
+
+Add validation to the rest api and return custom exception if data is missing
+
+With that start working on the UI :) 
+
+In future - add user details

@@ -1,0 +1,18 @@
+USER
+MEAL
+PRODUCT
+Daily stats -> Meals
+Stats -> snapshot of daily stat details (without meals information)
+
+Favourite Product
+
+
+MEAL - custom meals created by user (can be public or private)
+PRODUCT - based on https://pl.openfoodfacts.org/
+
+FAVORITE PRODUCTS ? Performance
+
+CUSTOM PRODUCTS not allowed
+
+
+PRODUCT
